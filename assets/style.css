@@ -150,4 +150,12 @@ h1{
     font-size: 20px;
 }
 
+hr{
+    margin: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20px;
+    background-color: rgb(235, 227, 227);
+    border: none;
+}
 
