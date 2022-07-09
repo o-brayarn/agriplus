@@ -5,16 +5,22 @@
 }
 @font-face {
     font-family: "Inter";
-    src: url(/assets/fonts/Inter/static/Inter-Black.ttf);
+    src: url(/assets/fonts/Inter/static/Inter-Light.ttf);
     font-display: swap;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
     font-family: 'Inter';
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    padding: 0px 50px;
 }
 .nav-bar{
     height: 15vh;
@@ -34,9 +40,11 @@ nav{
     font-size: 30px;
 }
 nav ul li{
+    list-style: none;
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
+   ne;
 }
 nav ul li a{
     color: white;
@@ -62,16 +70,49 @@ button:hover{
     transform: scale(1.3);
     cursor: pointer;
 }
-p{
-    font-family: 'Inter',sans-serif;
-}
+
 .intro{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/assets/images/image\ 1.png);
-    background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-size: contain;
+    height: 500px;
     width: 100%;
+    margin-top: 100px;
 }
-div img2{
+.intro h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.intro p{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.explo{
+   margin: 20px;
+   border: none;
+}
+/* Find a solution to this problem ASAP */
+.intro .img2{
     float: right;
+    padding-right: 50px;
+    height: 80%;
 }
+.stats{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 50%;
+    box-shadow: 20px;
+    margin-top: -100px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px whitesmoke;
+}
+
+
