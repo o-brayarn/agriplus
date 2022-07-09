@@ -150,6 +150,20 @@ h1{
     font-size: 20px;
 }
 
+.sec4{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.sec4 div{
+    padding-right: 100px;
+}
+
+.img4, .img5, .img6, .img7, .img8, .img9, .img10,.img11{
+    height: 11pc;
+    height: 11pc;
+}
 hr{
     margin: 20px;
     margin-left: 5%;
