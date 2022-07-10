@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="nav-bar">
+        <!-- <label for="toggle">&#9776;</label> -->
         <nav>
             <label class="logo">AgriPlus</label>
             <ul>
@@ -92,8 +93,9 @@
         </div>
 
 
-        <div class="sec5">
+       
             <h1>Newest Item</h1>
+        <div class="sec5">
             <div>
                 <img src="/assets/images/Rectangle 6.png" alt="Hybrid chicken" class="img8">
                 <h2>Chicken</h2>
@@ -126,23 +128,41 @@
 
         <hr>
 
+        <h1>What our Esteemed customers have to say about us</h1>
         <div class="sec6">
-            <h1>What our Esteemed customers have to say about us</h1>
             <div>
-                <p>"The most efficient way to get fresh produce"</p>
+                <!--Add star ratings icons-->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star unchecked"></span>
+                <h2>"The most efficient way to get fresh produce"</h2>
                 <img src="assets/images/Rectangle 11.png" alt="A lady farming or something" class="img12">
                 <p>Rebecca Mkulima</p>
             </div>
 
             <div>
-                <p>"AgirPlus is the place to market your produce"</p>
-                <img src="/assets/images/Rectangle 11-1.png" alt="John picking leaves or something" class="img12">
+                <!--Add star ratings icons-->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <h2>"AgriPlus is the place to market your produce"</h2>
+                <img src="/assets/images/Rectangle 11-1.png" alt="John picking leaves or something" class="img13">
                 <p>John Joe</p>
             </div>
 
             <div>
-                <p>"Connecting rural to urban through business"</p>
-                <img src="/assets/images/Rectangle 11-2.png" alt="A lady just flexing" class="img12">
+                <!--Add star ratings icons-->
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <h2>"Connecting rural to urban through business"</h2>
+                <img src="/assets/images/Rectangle 11-2.png" alt="A lady just flexing" class="img14">
                 <p>Lavington dwellers</p>
             </div>
             <button class="read-more-btn">Read More</button>
@@ -151,12 +171,14 @@
         <div class="sec7">
             <h1>We'd Like to keep in touch</h1>
             <p>Subscribe to our newsletter</p>
-            <input type="text" placeholder="Enter your email address"> <button class="sub-btn">Subscribe</button>
+            <input type="text" id="mail" placeholder="Enter your email address"> <button class="sub-btn">Subscribe</button>
         </div>
 
         <div class="sec8">
-            <div>
-                <label class="logo">AgriPlus</label>
+            <div class="sec8-main">
+                <div>
+                    <label class="logo">AgriPlus</label>
+                    <p>Quality Farm produce through <br> buying and selling</p>
                     <span class="wrapper">
                         <a class="social-icon" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
                         <a class="social-icon" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -167,35 +189,37 @@
                     <a href="" ><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style=" display: inline-block; border-radius: 13px; width: 150px; height: 70px;"/></a>
                     <a href="#" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 150px; height: 70px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1241395200&h=6cec8bbc0e43201eba00235612b1ee02" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 70px;"></a>
                 
+                </div>
 
-            <div>
-                <h2>Company</h2>
-                <ul class="comp-list">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-            </div>
+                <div>
+                    <h2>Company</h2>
+                    <ul class="comp-list">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
 
-            <div>
-                <h2>Products</h2>
-                <ul>
-                    <li><a href="">Dairy</a></li>
-                    <li><a href="">Cereals</a></li>
-                    <li><a href="">Vegetables & Fruits</a></li>
-                    <li><a href="">More.....</a></li>
-                </ul>
-            </div>
+                <div>
+                    <h2>Products</h2>
+                    <ul>
+                        <li><a href="">Dairy</a></li>
+                        <li><a href="">Cereals</a></li>
+                        <li><a href="">Vegetables & Fruits</a></li>
+                        <li><a href="">More.....</a></li>
+                    </ul>
+                </div>
 
-            <div>
-                <h2>Others</h2>
-                <ul>
-                    <li><a href="">FAQs</a></li>
-                    <li><a href="">Terms of Service</a></li>
-                    <li><a href="">Privacy and Policy</a></li>
-                </ul>
-            </div>
-            <p>All rights reserved, terms and conditions applied</p>
+                <div>
+                    <h2>Others</h2>
+                    <ul>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy and Policy</a></li>
+                    </ul>
+                </div>
+         </div>
+            <p id="footer">All rights reserved, terms and conditions applied</p>
         </div>
     </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
