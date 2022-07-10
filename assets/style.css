@@ -172,6 +172,32 @@ hr{
     background-color: rgb(235, 227, 227);
     border: none;
 }
+.sec6 h2{
+    font-family: 'Poppins';
+    font-size: 21px;
+    padding-bottom: 30px;
+}
+.sec6 div{
+    max-width: 18%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    background-color:ivory;
+    border-radius: 5px;
+}
+.sec6 p{
+    float:right;
+    padding-right: 20px;
+    font-weight: 900;
+}
+.img12, .img13, .img14{
+    width: 30%;
+}
+.checked {
+    color: #ED661F;
+  }
+.unchecked{
+    color: beige;
+}
+
 .sec7{
     margin-top: 80px;
     margin-bottom: 10px;
