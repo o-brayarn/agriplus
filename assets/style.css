@@ -172,6 +172,31 @@ hr{
     background-color: rgb(235, 227, 227);
     border: none;
 }
+.sec7{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+.sec7 p{
+    text-align: center;
+    color: solid black;
+    padding-top: 20px;
+}
+#mail{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 70px;
+    height: 40px;
+}
+.sub-btn{
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
 .sec8{
     background: black;
     color: white;
