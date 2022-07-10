@@ -75,7 +75,7 @@ button:hover{
 }
 
 .intro{
-    background-image:url(/assets/images/image\ 1.png);
+    background-image:url("../assets/images/image\ 1.png");
     /* linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  */
     background-position: center;
     background-size: contain;
