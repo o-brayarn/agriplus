@@ -172,6 +172,61 @@ hr{
     background-color: rgb(235, 227, 227);
     border: none;
 }
+.sec8{
+    background: black;
+    color: white;
+    text-decoration: none;
+    height: 500px;
+}
+.sec8-main{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.sec8-main p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 350px;
+}
+#footer{
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 30%;
+    font-family: 'Poppins';
+}
+.sec8 div{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.sec8 ul li{
+    list-style: none;
+    list-style-type: none;
+}
+.sec8 ul li a{
+    color: white;
+    cursor: pointer;
+}
+.sec8 ul li a:hover{
+    color: #ED661F;
+}
+
+
+.wrapper a{
+    background: aliceblue;
+    box-sizing: content-box;
+}
+.wrapper a:hover{
+    color: #ED661F;
+}
+.social-icon{
+    margin-right: 20px;
+}
+ .sec8-main h2.get-app{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ 
 
 @media (max-width:600px){
     body{
